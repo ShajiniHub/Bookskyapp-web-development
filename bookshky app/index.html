@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Booksky</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Booksky</h1>
+    </div>
+    
+    <div class="container">
+        <div class="box">
+        <h2>Beautiful Oops!</h2>
+        <h5>Barney Saltzberg</h5>
+        <p>
+            It’s OK to make mistakes, as long as you keep trying.
+ong as you keep trying.
+
+Hooray for mistakes! This interactive book shows kids how mistakes can be turned into something beautiful just by using your imagination.
+        </p>
+        <button onclick=" Delete(event)">Delete</button>
+    </div>
+   
+    </div>
+    
+    
+   
+    <button class="addbutton" id="popupbutton">+</button>
+    <div class="overlay"></div>
+    <div class="popup">
+        <h2>Add Book</h2>
+        <form><input type="text" placeholder="Book title" id="book">
+            <input type="text" placeholder="Book Author" id="author">
+        <textarea placeholder="short descripttion" id="bookdes"></textarea> 
+        <button id="addbook">ADD</button>
+        <button id="removebook">CANCEL</button>
+    </form>
+    </div>
+<script src="json.js"></script>
+    
+</body>
+
+</html>
